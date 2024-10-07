@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 import "./globals.css";
+import { Menu } from "@/components/menu";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,9 +16,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`antialiased`}
+        className={` min-h-screen h-auto w-full  antialiased`}
       >
+        <Menu op1={"Home"}></Menu>
+        <div className="h-full w-full flex flex-col">
         {children}
+
+        </div>
       </body>
     </html>
   );
