@@ -21,7 +21,7 @@ export default function Home() {
 
           <div className=" flex flex-col justify-center h-1/5 lg:h-[60rem] w-full items-center mt-5 p-3 lg:p-10 shadow-xl " id="2">
               <Image className="w-80 h-48 lg:mb-44" src={reactJS} alt={""} width={208} height={208}></Image>
-              <p className=" font-medium mt-4 p-2 ">O React é uma poderosa biblioteca para construção de interfaces visuais em JavaScript.
+              <p className=" font-medium mt-4 p-2 lg:text-xl lg:p-16 ">O React é uma poderosa biblioteca para construção de interfaces visuais em JavaScript.
                  Ou seja, é uma ferramenta ideal para o desenvolvimento front-end. No React, você pode adotar estruturas do HTML e do JavaScript em um só código, a fim de manipular os aspectos da apresentação de um site.
                   Como se trata de uma biblioteca, é um conjunto de códigos prontos e funções específicas para lidar com determinados problemas. 
                   Para quem trabalha com front-end (parte visual) ou é full-stack, esse recurso quebra um galho. 
@@ -32,7 +32,7 @@ export default function Home() {
 
           <div className=" flex flex-col justify-center h-1/5 lg:h-[60rem] w-full mt-5 p-3 lg:p-10 items-center shadow-xl " id="3">
               <Image className="w-80 h-48 lg:mb-44"  src={tailwind} alt={""} width={208} height={208}></Image>
-              <p className="font-medium mt-4 p-2 ">
+              <p className="font-medium mt-4 p-2 lg:text-xl lg:p-16 ">
                      O Tailwind CSS, segundo o próprio site da web é um "framework CSS visando a utilidade", que fornece várias dessas classes utilitárias, opinativas e de propósito único, que você pode usar diretamente dentro de sua marcação de texto para projetar um elemento.
                      Algumas das classes utilitárias que uso frequentemente hoje em dia são:
                      <br />
@@ -51,7 +51,7 @@ export default function Home() {
 
           <div className=" flex flex-col justify-center h-1/5 lg:h-[60rem] w-full mt-5 p-3  lg:p-10 items-center shadow-xl " id="4">
             <Image className="w-80 h-48 lg:mb-44"  src={next} alt={""} width={208} height={208}></Image>
-            <p className="font-medium mt-4 p-2 ">
+            <p className="font-medium mt-4 p-2  lg:text-xl lg:p-16">
                 A programação web tem evoluído constantemente, e cada vez mais surgem novas ferramentas e tecnologias para facilitar o desenvolvimento de aplicações. 
                 Entre essas ferramentas, os frameworks têm se destacado como uma forma de acelerar o processo de criação de projetos e oferecer recursos adicionais. 
             </p>
@@ -59,7 +59,7 @@ export default function Home() {
 
           <div className=" flex flex-col justify-center h-1/5 lg:h-[60rem] w-full mt-5 p-3 lg:p-10 items-center shadow-xl" id="5">
           <Image className="w-80 h-48 lg:mb-44"  src={jquery} alt={""} width={208} height={208}></Image>
-          <p className=" font-medium mt-4 p-4 mb-3 ">
+          <p className=" font-medium mt-4 p-4 mb-3 lg:text-xl lg:p-16 ">
             jQuery é uma biblioteca JavaScript criada por John Resig em 2006. É como um software de código aberto: seu uso é licenciado pelo Massachusetts Institute of Technology (MIT) e pelo GNU General Public License (GPL).
             Sua principal finalidade é associar-se aos elementos JavaScript em HTMLpara conferir mais dinamismo e usabilidade às páginas na internet.
             Suas linhas de código simplificam os scripts interpretados pelo navegador do client-side e por esse motivo é uma das bibliotecas mais populares na comunidade de desenvolvedores.

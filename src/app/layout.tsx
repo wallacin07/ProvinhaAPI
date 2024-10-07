@@ -18,11 +18,10 @@ export default function RootLayout({
       <body
         className={` min-h-screen h-auto w-full  antialiased`}
       >
-        <Menu op1={"Home"}></Menu>
-        <div className="h-full w-full flex flex-col">
+        <Menu op1={"Home"} op2={"IMC"} op3={"Media"}></Menu>
+        
         {children}
 
-        </div>
       </body>
     </html>
   );
